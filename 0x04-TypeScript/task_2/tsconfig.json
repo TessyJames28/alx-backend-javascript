@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "esModuleInterop": true
+  },
+  "include": ["./js/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
