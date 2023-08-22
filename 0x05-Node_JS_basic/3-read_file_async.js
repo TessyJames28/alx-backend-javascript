@@ -27,7 +27,7 @@ module.exports = function countStudents(database) {
       console.log(`Number of students: ${students}`);
       console.log(`Number of students in CS: ${cs.length}. List: ${cs.join(', ')}`);
       console.log(`Number of students in SWE: ${swe.length}. List: ${swe.join(', ')}`);
-      resolve();
+      resolve(`Number of students: ${students}\nNumber of students in CS: ${cs.length}. List: ${cs.join(', ')}\nNumber of students in SWE: ${swe.length}. List: ${swe.join(', ')}`);
     });
   });
 };
