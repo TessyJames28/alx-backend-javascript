@@ -2,21 +2,19 @@
 function calculateNumber(type, a, b) {
   const x = Math.round(a);
   const y = Math.round(b);
-  let ans = 0;
-
   if (type === 'SUM') {
-    ans = x + y;
+    return x + y;
   }
   if (type === 'SUBTRACT') {
-    ans = x - y;
+    return x - y;
   }
   if (type === 'DIVIDE') {
     if (y === 0) {
-      ans = 'Error';
+      return 'Error';
     }
-    ans = x / y;
+    return x / y;
   }
-  return ans;
+  return null;
 }
 
 module.exports = calculateNumber;
