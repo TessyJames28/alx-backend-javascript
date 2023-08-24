@@ -1,6 +1,6 @@
 /* test cases for calculateNumber function */
 const expect = require('chai').expect;
-const calculateNumber = require('./1-calcul');
+const calculateNumber = require('./2-calcul_chai');
 
 describe('example Test Suite', () => {
   it('should pass if values are equal', () => {
